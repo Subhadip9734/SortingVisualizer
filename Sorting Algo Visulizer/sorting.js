@@ -5,7 +5,7 @@ function swap(el1, el2) {
     el2.style.height = temp;
 }
 
-// Disables sorting buttons used in conjunction with enable, so that we can disable during sorting and enable buttons after it
+// Disables sorting buttons used in conjunction with enable, so that we can disable during sorting and enable buttons after it.
 function disableSortingBtn(){
     document.querySelector(".bubbleSort").disabled = true;
     document.querySelector(".insertionSort").disabled = true;
